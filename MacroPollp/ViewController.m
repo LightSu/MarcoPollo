@@ -27,7 +27,7 @@
 
 - (IBAction)postItButtonPressed:(id)sender {
     
-    NSLog(@"Post it button was pressed: %@", self.tweetTextView.text);
+    NSLog(@"Post it button was pressed~~: %@", self.tweetTextView.text);
     
     NSString *tweetText = [NSString stringWithFormat:@"%@ #MarcoPollo", self.tweetTextView.text];
     
